@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+gensim
+matplotlib
+umap-learn
+openpyxl
+

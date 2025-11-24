@@ -1,41 +1,27 @@
-# Python
+# Python 缓存
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+*.pyo
 
-# Virtual environments
+# 虚拟环境
 venv/
-ENV/
 env/
 
-# IDE
+# 数据集和模型
+Word2Vec_SVM/data/*.xlsx
+Word2Vec_SVM/data/*.csv
+Word2Vec_SVM/data/*.txt
+*.model
+*.bin
+
+# 输出图像或结果
+*.png
+*.jpg
+*.jpeg
+
+# IDE 配置
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
 
-# OS
-.DS_Store
-Thumbs.db
 
-# Data files (if they should not be tracked)
-*.csv
-*.txt
+
